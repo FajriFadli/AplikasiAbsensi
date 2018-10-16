@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "507761423266",
+    "firebase_url": "https://high-victor-219417.firebaseio.com",
+    "project_id": "high-victor-219417",
+    "storage_bucket": "high-victor-219417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507761423266:android:53a9b3d6d04b7e4b",
+        "android_client_info": {
+          "package_name": "com.example.fajrifadli.aplikasiabsensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507761423266-4k4j64ljeuu3tlhitul5147s8ue2f5fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fajrifadli.aplikasiabsensi",
+            "certificate_hash": "cf388b64f61cdc17983454f71176eb7b0ee6d96b"
+          }
+        },
+        {
+          "client_id": "507761423266-hsdqb7uuae57oa2j6evf1dr43e72m4be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_odJlTStpuL9zMattFoJYadrng6a3ogE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507761423266-hsdqb7uuae57oa2j6evf1dr43e72m4be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
