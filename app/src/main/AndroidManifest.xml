@@ -42,6 +42,8 @@
             android:name=".CheckinActivity">
 
         </activity>
+        <activity android:name=".AdminSigninActivity"/>
+        <activity android:name=".AdminPanelActivity"/>
     </application>
 
 </manifest>
