@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class AdminSigninActivity extends AppCompatActivity {
     EditText passwordBox;
@@ -19,13 +20,15 @@ public class AdminSigninActivity extends AppCompatActivity {
         setContentView(R.layout.activity_admin_signin);
         passwordBox = findViewById(R.id.passwordBox);
         loginButton = findViewById(R.id.button2);
-        password = passwordBox.getText().toString();
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(password == "abracadabra"){
+                password = passwordBox.getText().toString().trim();
+                if(password.equals("123")){
                     Intent i = new Intent(AdminSigninActivity.this, AdminPanelActivity.class);
                     startActivity(i);
+                } else {
+                    Toast.makeText(AdminSigninActivity.this, "Password Salah", Toast.LENGTH_SHORT).show();
                 }
             }
         });
